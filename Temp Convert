@@ -2,5 +2,8 @@ import java.util.Scanner;
 public class Converter{
   public static void main(){
     Scanner scan = new Scanner(System.in);
+    System.out.print("Enter your fahrenheit temperature: ");
+    double temp = scan.nextDouble();
+    System.out.println("Your fahrenheit temperature in fahrenheit is " + temp + " degrees");
   }
 }
